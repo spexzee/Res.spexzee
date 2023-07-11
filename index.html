@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal portfolio | Abu</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Roboto+Mono&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/Responsive.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navBar">
+                <div class="left"><span id="logo-text"></span>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div class="visitGithub">
+                    <button onclick="visitGit()">Visit Github</button>
+                </div>
+            </nav>
+            <!-- <button onclick="navMenu()">HamBurger</button> -->
+        </header>
+        <main>
+            <section class="firstSection">
+                <div class="leftSection">
+                    Hi, My Name is <span class="text-purple">Abu.</span>
+                    <div class>and I am a passionate</div>
+                    <span id="element"></span>
+                    <div class="buttons">
+                        <a href="Images/resume+(1).pdf" class="btn">Download
+                            Resume</a>
+                    </div>
+                </div>
+                <div class="rightSection">
+                    <img src="Images/dev.png" alt="Developer Bg" class="bg-hero">
+                </div>
+            </section>
+            <hr>
+            <section class="secondSection">
+                <span class="text-gray">What I have done so far</span>
+                <h1>Work Experience</h1>
+                <div class="box">
+                    <div class="verticle">
+                        <img class="image-top" src="Images/new job1.png"
+                            alt="Logo">
+                        <div class="verticle-title">
+                            HTML Developer (fromYear-toYear)
+                        </div>
+                        <div class="verticle-desc">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Deserunt, et in. Deleniti ipsum quis
+                            reiciendis exercitationem illum perferendis!
+                            Aspernatur, ut!
+                        </div>
+                    </div>
+                    <div class="verticle">
+                        <img class="image-top" src="Images/new job1.png"
+                            alt="Logo">
+                        <div class="verticle-title">
+                            HTML Developer (fromYear-toYear)
+                        </div>
+                        <div class="verticle-desc">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Deserunt, et in. Deleniti ipsum quis
+                            reiciendis exercitationem illum perferendis!
+                            Aspernatur, ut!
+                        </div>
+                    </div>
+                    <div class="verticle">
+                        <img class="image-top" src="Images/new job1.png"
+                            alt="Logo">
+                        <div class="verticle-title">
+                            HTML Developer (fromYear-toYear)
+                        </div>
+                        <div class="verticle-desc">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Deserunt, et in. Deleniti ipsum quis
+                            reiciendis exercitationem illum perferendis!
+                            Aspernatur, ut!
+                        </div>
+                    </div>
+                    <div class="verticle">
+                        <img class="image-top" src="Images/new job1.png"
+                            alt="Logo">
+                        <div class="verticle-title">
+                            HTML Developer (fromYear-toYear)
+                        </div>
+                        <div class="verticle-desc">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Deserunt, et in. Deleniti ipsum quis
+                            reiciendis exercitationem illum perferendis!
+                            Aspernatur, ut!
+                        </div>
+                    </div>
+                    <div class="verticle">
+                        <img class="image-top" src="Images/new job1.png"
+                            alt="Logo">
+                        <div class="verticle-title">
+                            HTML Developer (fromYear-toYear)
+                        </div>
+                        <div class="verticle-desc">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Deserunt, et in. Deleniti ipsum quis
+                            reiciendis exercitationem illum perferendis!
+                            Aspernatur, ut!
+                        </div>
+                    </div>
+                    <div class="verticle">
+                        <img class="image-top" src="Images/new job1.png"
+                            alt="Logo">
+                        <div class="verticle-title">
+                            HTML Developer (fromYear-toYear)
+                        </div>
+                        <div class="verticle-desc">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Deserunt, et in. Deleniti ipsum quis
+                            reiciendis exercitationem illum perferendis!
+                            Aspernatur, ut!
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+        </main>
+        <!-- <script src="js/main.js"></script> -->
+        <!-- Load library from the CDN -->
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+        <!-- Setup and start animation! -->
+        <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer.', 'Graphic Designer.', 'Web Designer.'],
+      typeSpeed: 50,
+    });
+    var logo_typed = new Typed('#logo-text', {
+      strings: ["Abu 's Portfolio"],
+      typeSpeed: 80,
+    });
+
+    function visitGit(){
+        window.location.href="https://github.com/spexzee"
+    }
+  </script>
+    </body>
+</html>

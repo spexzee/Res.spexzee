@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr: rgb(196, 133, 255);
+}
+
+body {
+    background: linear-gradient(rgb(0, 0, 33), rgb(14, 14, 41), rgb(17, 17, 59), rgb(0, 0, 33));
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.visitGithub button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 120px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.visitGithub button:hover {
+    box-shadow: 1px 1px white;
+}
+
+.leftSection .buttons {
+    padding-top: 60px;
+}
+
+.leftSection .buttons .btn {
+    display: block;
+    width: 170px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    padding: 8px 10px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.leftSection .buttons .btn:hover {
+    background-color: var(--clr);
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(23, 23, 56);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: var(--clr);
+    transition: all 0.3s;
+}
+
+main hr {
+    border: 0;
+    background: var(--clr);
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 90px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2.2rem;
+}
+
+#element {
+    color: var(--clr);
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.rightSection img {
+    width: 100%;
+    /* margin: 25px 0; */
+}
+
+.text-purple {
+    color: var(--clr);
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 1.6rem;
+}
+
+.secondSection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondSection .verticle {
+    height: 105px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 30px;
+    position: relative;
+    top: -38px;
+    left: -15px;
+}
+
+.verticle-title {
+    position: relative;
+    top: 72px;
+    left: -10px;
+    width: 150px;
+}
+
+.verticle-desc {
+    position: relative;
+    top: 85px;
+    left: -9px;
+    color: gray;
+    font-size: 13px;
+    width: 190px;
+}
